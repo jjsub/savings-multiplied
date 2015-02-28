@@ -1,0 +1,295 @@
+@import url(http://fonts.googleapis.com/css?family=Ultra);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color:#CFEFEE;
+  padding:0;
+  margin:0;
+  font-family: 'Ultra', 'Arial Black';
+}
+
+/* Sign in section*/
+
+#signIn {
+  font-family: "Calibri", "Open Sans";
+  width:960px;
+  text-align:right;
+  margin:0 auto;
+  padding:50px 5% 0 0;
+  color:#2A959E;
+}
+
+/* Header section*/
+
+header {
+  width:935px;
+  background-color:white;
+  margin:0 auto;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border:white 1px solid;
+  height:150px;
+}
+.logo {
+  margin:-50px -20px 0 10px;
+  padding:0;
+  width:40%;
+}
+
+.headerRight {
+  float:right;
+  width: 61%;
+  display:inline-block;
+  margin:50px 0 0 0;
+  padding:0;
+  font-family: "Calibri", "Open Sans";
+  text-align:center;
+
+}
+
+.headerRight ul {
+  margin:0;
+  padding:0 0 15px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.headerRight li {
+  display:inline-block;
+  margin:0 15px 0 0;
+  padding:2px 30px;
+  border-radius:30px;
+  color:white;
+
+}
+.blue {
+  background-color:#69C4CC;
+}
+.green {
+  background-color:#80c219;
+}
+.purple {
+  background-color:#6F308B;
+}
+.pink {
+  background-color:#E9168C;
+}
+
+
+
+/* Navigation Bar section*/
+
+nav {
+  width:100%;
+  background-color:#F3CECD;
+  color: #6F1549;
+  padding: 4px 0;
+}
+
+nav ul {
+  width:935px;
+  margin:0 auto;
+  padding:0;
+  list-style: none;
+  text-align:center;
+}
+
+nav li {
+  display:inline-block;
+  padding: 5px;
+  margin: 0 35px;
+
+}
+.search {
+  border: 1px #E9168C solid;
+  border-radius:30px;
+  color:#F3CECD;
+  background-color:white;
+  font-family: "Calibri", "Open Sans";
+  padding:0;
+  margin:0;
+}
+.search img {
+  padding:0 3px 0 10px;
+}
+
+.search p {
+  display:inline-block;
+  padding:0 40px 0 0;
+  margin:0;
+}
+
+/* Sets the second half background color*/
+
+.bottom {
+  background-color:#69C4CC;
+}
+
+/* Main section*/
+#main {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width:935px;
+  background-color:white;
+  margin:0 auto;
+ border:white 1px solid;
+}
+
+
+/* Left section*/
+
+.leftMain {
+  width:50%;
+  margin:10px 0 0 20px;
+  color:#80c219;
+}
+.leftMain p {
+  font-family: "Calibri", "Open Sans";
+  color:#2A959E;
+}
+.leftMain h2 {
+  font-size:22px;
+}
+
+.floatRight {
+  float:right;
+}
+
+.inlineBlock p{
+  display:inline-block;
+  font-size:22px;
+}
+.inlineBlock img{
+  display:inline-block;
+}
+
+/* right section with the images*/
+
+.rightMain {
+  padding:20px 20px 0 0;
+  width:40%;
+  float:right;
+}
+
+
+/*Clears float*/
+.clear {
+  clear: both;
+}
+
+
+/* pre-footer section*/
+.dottedLine {
+  margin: 20px auto;
+  height:10px;
+  width:90%;
+  background-image: url("../images/homepage/dotted_line_44x9.png");
+  background-repeat: repeat-x;
+}
+
+.callout {
+  text-align:center;
+}
+.callout img {
+  padding:30px 15px;
+}
+
+/*Auction page CSS*/
+.auctionLeft {
+  background-color:#efffe0;
+  color:#80c219;
+  width:200px;
+  font-family: "Calibri", "Open Sans";
+  margin:20px 0 0 25px;
+  padding: 7px 10px 10px;
+  border-radius:30px;
+}
+.auctionLeft hr {
+  border-color:#80c219;
+}
+.auctionLeft h4 {
+  width:50%;
+  text-align:left;
+  padding:0;
+  margin:0;
+}
+
+.auctionLeft button {
+  background-color:#80c219;
+  color:white;
+  border-radius: 30px;
+  border-style: solid;
+  border-color:#80c219;
+}
+.column {
+  width:85%;
+  margin:0 auto 5px;
+}
+.column2Container {
+  margin:0 auto;
+  width:100%;
+}
+.column2 {
+  padding:0 0 0 15px;
+  width:30%;
+  display:inline-block;
+}
+.auctionMain {
+  font-family: "Calibri", "Open Sans";
+  color:#80c219;
+  text-align:center;
+  float:right;
+  width:675px;
+  margin:0 25px 25px 25px;
+}
+.auctionNavigation {
+  text-align:left;
+  width:550px;
+  margin:0 auto;
+}
+.auctionPageNavigation {
+  float:right;
+  text-align: right;
+}
+.auctionPageNavigation p {
+  display:inline-block;
+}
+
+.item {
+  display:inline-block;
+  height:115px;
+  width:100px;
+  margin:20px;
+}
+
+.item img {
+  background-color:#efffe0;
+  margin:0;
+  padding:0;
+  width:100px;
+  height:100px; 
+}
+
+.item p {
+  margin:0;
+  padding:0;
+  width:100px;
+  font-size:12px;
+}
+
+
+
+
+
+
+/* Footer section*/
+footer {
+  padding: 10px 0 200px 0;
+  text-align:center;
+  color:white;
+  font-family: "Calibri", "Open Sans";
+}
+footer p {
+  display: inline-block;
+  padding: 0 7px;
+}

@@ -25,3 +25,8 @@ order list
 links => [Link text]( URL)
 
 [Juan Job ](http://juanjob.info)
+
+
+**To make bold**
+
+__ Italic text__
